@@ -1,37 +1,38 @@
 .news-section {
-    scroll-margin-top: 140px;
+  scroll-margin-top: 140px;
+  margin-bottom: 120px;
 }
 
 .news-card {
-    position: relative;
-    width: 255px;
-    cursor: pointer;
-    transition: filter 0.6s ease;
-    filter: brightness(60%);
+  position: relative;
+  width: 255px;
+  cursor: pointer;
+  transition: filter 0.6s ease;
+  filter: brightness(60%);
 }
 
 .news-card:hover {
-    filter: brightness(130%);
+  filter: brightness(130%);
 }
 
 .news-card-title {
-    position: absolute;
-    top: 190px;
-    padding: 0 22px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    margin-bottom: 10px;
-    color: #fff;
+  position: absolute;
+  top: 190px;
+  padding: 0 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-bottom: 10px;
+  color: #fff;
 }
 
 .news-card-img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .button-container {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
 }

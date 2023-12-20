@@ -1,17 +1,21 @@
 .advantages-section {
-    margin-top: 120px;
+  margin-bottom: 60px;
 }
 
 .advantages-title {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .advantages-img {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 5px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+.advantages-card {
+  margin-bottom: 60px;
 }
 
 .advantages-card-description {
-    width: 220px;
+  width: 220px;
 }

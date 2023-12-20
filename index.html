@@ -1,539 +1,584 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Пионер</title>
 
     <!-- Normalize -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Bootstrap -->
     <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header class="header-container">
-        <div class="container">
-            <nav class="navbar">
-                <a class="navbar-brand" href="#Intro"><img
-                        src="./images/logo.svg" alt=""></a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
-                    <span class="navbar-toggler-icon">
-                        <img src="./icons/menu-icon.svg" alt="" width="30"
-                            height="20">
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li>
-                            <a class="nav-link" href="#About">О Заводе</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#News">Новости</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#Catalog">Каталог</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#Map">География
-                                поставок</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#Contacts">Контакты</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Поиск</a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="button-primary navbar-button">
-                    Заказать звонок
-                </button>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="navbar">
+          <a class="navbar-brand" href="#Intro"
+            ><img src="./images/logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target=".navbar-collapse"
+          >
+            <span class="navbar-toggler-icon">
+              <img src="./icons/menu-icon.svg" alt="" width="30" height="20" />
+            </span>
+          </button>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li>
+                <a class="nav-link" href="#About">О Заводе</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#News">Новости</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Catalog">Каталог</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Map">География поставок</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Contacts">Контакты</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Поиск</a>
+              </li>
+            </ul>
+          </div>
+          <button class="button-primary navbar-button">Заказать звонок</button>
+        </nav>
+      </div>
     </header>
     <!-- Header -->
 
     <main>
-        <!-- Intro -->
-        <section class="intro-section" id="Intro">
-            <div class="container">
-                <h1 class="intro-title">Российский завод силовых машин</h1>
-                <div class="intro-description big-size-text">«ПИОНЕР» –
-                    научно-производственное предприятие,
-                    занимающееся разработкой и
-                    производством силовых машин.
-                </div>
-                <button class="button-primary intro-button button-block">Сделать
-                    заказ</button>
+      <!-- Intro -->
+      <section class="intro-section" id="Intro">
+        <div class="container">
+          <h1 class="intro-title">Российский завод силовых машин</h1>
+          <div class="intro-description big-size-text">
+            «ПИОНЕР» – научно-производственное предприятие, занимающееся
+            разработкой и производством силовых машин.
+          </div>
+          <button class="button-primary intro-button button-sm-block">
+            Сделать заказ
+          </button>
+        </div>
+      </section>
+      <!-- Intro -->
+
+      <!-- About -->
+      <section class="about-section" id="About">
+        <div class="container">
+          <h2 class="about-title">O Заводе</h2>
+          <div class="row">
+            <div class="col-6 col-sm-12">
+              <p class="big-size-text">
+                Ежегодно НПП «ПИОНЕР» реализует несколько проектов по
+                модернизации серийных и разработке новых приборов, призванные в
+                наибольшей степени удовлетворять возрастающие требования наших
+                заказчиков.
+              </p>
             </div>
-        </section>
-        <!-- Intro -->
-
-        <!-- About -->
-        <section class="about-section" id="About">
-            <div class="container">
-                <h2 class="about-title">O Заводе</h2>
-                <div class="row">
-                    <div class="col-6 col-sm-12">
-                        <p class="big-size-text">
-                            Ежегодно НПП «ПИОНЕР» реализует несколько проектов
-                            по модернизации серийных и
-                            разработке новых приборов, призванные в наибольшей
-                            степени удовлетворять
-                            возрастающие требования
-                            наших заказчиков.
-
-                        </p>
-                    </div>
-                    <div class="col-6 col-sm-12">
-                        <p class="big-size-text">
-                            За 20 лет развития в структуре завода сформирован
-                            мощный производственный
-                            потенциал,
-                            научно-технический центр, испытательная лаборатория,
-                            современная база, учебный
-                            центр
-                            и широкая сеть региональных и международных
-                            представительств в Российской
-                            Федерации, Республике Беларусь, Узбекистане и
-                            Казахстане.
-                        </p>
-                    </div>
-                </div>
+            <div class="col-6 col-sm-12">
+              <p class="big-size-text">
+                За 20 лет развития в структуре завода сформирован мощный
+                производственный потенциал, научно-технический центр,
+                испытательная лаборатория, современная база, учебный центр и
+                широкая сеть региональных и международных представительств в
+                Российской Федерации, Республике Беларусь, Узбекистане и
+                Казахстане.
+              </p>
             </div>
-        </section>
-        <!-- About -->
+          </div>
+        </div>
+      </section>
+      <!-- About -->
 
-        <!-- News -->
-        <section class="news-section" id="News">
-            <div class="container">
-                <div
-                    class="row justify-content-between direction-colums-sm gap-sm-40 align-content-center-sm">
-                    <div class="news-card col-sm-12">
-                        <img src="./images/news-card-img1.jpg" alt=""
-                            class="news-card-img">
-                        <h3 class="news-card-title">Срок действия
-                            договоренностей
-                            продлен на год
-                        </h3>
-                    </div>
-                    <div class="news-card">
-                        <img src="./images/news-card-img2.jpg" alt=""
-                            class="news-card-img">
-                        <h3 class="news-card-title">Перенос сроков
-                            проведения работ
-                            в 2022 году
-                        </h3>
-                    </div>
-                    <div class="news-card">
-                        <img src="./images/news-card-img3.jpg" alt=""
-                            class="news-card-img">
-                        <h3 class="news-card-title">Поздравляем коллектив
-                            «ПИОНЕР»
-                            с праздником
-                        </h3>
-                    </div>
-                    <div class="news-card">
-                        <img src="./images/news-card-img4.jpg" alt=""
-                            class="news-card-img">
-                        <h3 class="news-card-title">НПП «ПИОНЕР»
-                            в условиях пандемии
-                        </h3>
-                    </div>
-                </div>
-                <div class="button-container ">
-                    <button
-                        class="button-primary section-button button-block">Все
-                        новости</button>
-                </div>
+      <!-- News -->
+      <section class="news-section" id="News">
+        <div class="container">
+          <div
+            class="row justify-content-between direction-colums-sm gap-sm-40 align-content-center-sm"
+          >
+            <div class="news-card col-sm-12">
+              <img
+                src="./images/news-card-img1.jpg"
+                alt=""
+                class="news-card-img"
+              />
+              <h3 class="news-card-title">
+                Срок действия договоренностей продлен на год
+              </h3>
             </div>
-        </section>
-        <!-- News -->
-
-        <!-- Advantages -->
-        <section class="advantages-section">
-            <div class="container">
-                <h2 class="advantages-title">Приемущества</h2>
-                <div class="row row-gutter-sm gap-sm-40">
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/factory-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">28 лет
-                                работы в отраслевом
-                                сегменте рынка
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/money-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">Цены без
-                                посреднических
-                                надбавок
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/delivery-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">Доставка в
-                                любой город
-                                России и СНГ
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/delivery-icon2.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">Товар
-                                всегда в наличии
-                                на складе
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row-gutter-sm gap-sm-40">
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/gear-wheel-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">Постоянное
-                                обновление
-                                производства и внедрения
-                                научно-технических разработок
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/call-center-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">Спавочный
-                                центр 24/7
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/stack-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">Более 1000
-                                позиций
-                                в промышленном каталоге
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 col-sm-12">
-                        <div class="advantages-card">
-                            <img src="./icons/document-icon.png" alt=""
-                                class="advantages-img">
-                            <div class="advantages-card-description">100 %
-                                надежность
-                                Предоставим документы,
-                                лицензии и сертификаты
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="news-card">
+              <img
+                src="./images/news-card-img2.jpg"
+                alt=""
+                class="news-card-img"
+              />
+              <h3 class="news-card-title">
+                Перенос сроков проведения работ в 2022 году
+              </h3>
             </div>
-        </section>
-        <!-- Advantages -->
-
-        <!-- Catalog -->
-        <section class="catalog-section" id="Catalog">
-            <div class="container">
-                <h2 class="catalog-title">Каталог</h2>
-                <div class="grid-card justify-content-center-sm">
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-1.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Датчики и измерители
-                            температуры
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-2.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Вторичные приборы
-                            и расходомеры
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-3.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Метрологическое
-                            оборудование
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-4.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Электромагнитные
-                            расходомеры-счетчики
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-5.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Измерители-регуляторы
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-6.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Блоки питания
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-7.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Модули УСО
-                        </div>
-                    </div>
-                    <div class="catalog-card">
-                        <img src="./images/catalog-img-8.jpg" alt=""
-                            class="catalog-img">
-                        <div class="card-line"></div>
-                        <div class="catalog-card-title">Универсальные
-                            вычеслители расхода
-                        </div>
-                    </div>
-                </div>
-                <div class="button-container">
-                    <button
-                        class="button-primary section-button button-block">Весь
-                        каталог</button>
-                </div>
+            <div class="news-card">
+              <img
+                src="./images/news-card-img3.jpg"
+                alt=""
+                class="news-card-img"
+              />
+              <h3 class="news-card-title">
+                Поздравляем коллектив «ПИОНЕР» с праздником
+              </h3>
             </div>
-        </section>
-        <!-- Catalog -->
-
-        <!-- Map -->
-        <section class="map-section" id="Map">
-            <div class="container">
-                <h2 class="map-title">География поставок</h2>
-                <div class="row">
-                    <div class="col-6">
-                        <p class="map-description big-size-text">
-                            Наши филиалы находятся во всех крупных
-                            городах России.
-                            Москва, Санкт-Петербург, Архангельск, Сыктывкар,
-                            Тюмень, Новосибирск, Красноярск,
-                            Якутск, Владивосток.
-
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <p class="map-description big-size-text">
-                            Доставка осуществляется в день заказа посредством
-                            транспортных компаний.
-                        </p>
-                    </div>
-                </div>
-                <img src="./images/map-img.jpg" alt="" class="map-img">
+            <div class="news-card">
+              <img
+                src="./images/news-card-img4.jpg"
+                alt=""
+                class="news-card-img"
+              />
+              <h3 class="news-card-title">НПП «ПИОНЕР» в условиях пандемии</h3>
             </div>
-        </section>
-        <!-- Map -->
+          </div>
+          <div class="button-container">
+            <button class="button-primary section-button button-sm-block">
+              Все новости
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- News -->
 
-        <!-- Сontacts -->
-        <section class="contacts-section" id="Contacts">
-            <div class="container">
-                <div class="row gap-sm-40">
-                    <div class="col-6 col-sm-12">
-                        <h2 class="contacts-title">Контакты</h2>
-                        <h3 class="contacts-subtitle">Оставьте заявку</h3>
-                        <p class="contacts-description">
-                            Перезвоним в течение 30 минут. Обсудим задачи и
-                            найдем
-                            оптимальное решение. Ответим на вопросы и расскажем
-                            подробнее о действующих акциях.
-                            Будем на связи!
-                        </p>
-                        <ul class="list-horizontal">
-                            <li>
-                                <a href="https://whatsapp.com" target="_blank">
-                                    <img src="./icons/whatsapp-icon.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://instagram.com" target="_blank">
-                                    <img src="./icons/instagram-icon.svg"
-                                        alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://vk.com" target="_blank">
-                                    <img src="./icons/vk-icon.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-sm-12">
-                        <form>
-                            <div class="form-group">
-                                <label class="form-label" for="name">
-                                    Ваше имя <span class="required">*</span>
-                                </label>
-                                <input type="text" class="form-control"
-                                    placeholder="Введите ваше имя" id="Name"
-                                    value="" required />
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="PhoneNumber">
-                                    Телефон <span class="required">*</span>
-                                </label>
-                                <input type="text" class="form-control"
-                                    placeholder="7 (_ _ _) _ _ _-_ _-_ _"
-                                    minlength="11" id="PhoneNumber" value=""
-                                    required />
-                            </div>
-                            <script>
-                                document.getElementById('PhoneNumber').addEventListener('input', function (e) {
-                                    this.value = this.value.replace(/[^0-9]/g, '');
-                                    if (this.value.length > 11) {
-                                        this.value = this.value.slice(0, 11);
-                                    }
-                                });
-                            </script>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox"
-                                    value="" id="flexCheckDefault" required>
-                                <label class="form-check-label"
-                                    for="flexCheckDefault">
-                                    Я согласен(а) на обработку персональных
-                                    данных
-                                </label>
-                            </div>
-                            <button
-                                class="button-primary section-button button-block"
-                                type="submit">
-                                Отправить
-                            </button>
-                        </form>
-                    </div>
+      <!-- Advantages -->
+      <section class="advantages-section">
+        <div class="container">
+          <h2 class="advantages-title">Приемущества</h2>
+          <div class="row row-gutter-sm gap-sm-40">
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/factory-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  28 лет работы в отраслевом сегменте рынка
                 </div>
+              </div>
             </div>
-        </section>
-        <!-- Сontacts -->
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/money-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  Цены без посреднических надбавок
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/delivery-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  Доставка в любой город России и СНГ
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/delivery-icon2.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  Товар всегда в наличии на складе
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/gear-wheel-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  Постоянное обновление производства и внедрения
+                  научно-технических разработок
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/call-center-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  Спавочный центр 24/7
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/stack-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  Более 1000 позиций в промышленном каталоге
+                </div>
+              </div>
+            </div>
+            <div class="col-3 col-sm-12">
+              <div class="advantages-card">
+                <img
+                  src="./icons/document-icon.png"
+                  alt=""
+                  class="advantages-img"
+                />
+                <div class="advantages-card-description">
+                  100 % надежность Предоставим документы, лицензии и сертификаты
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Advantages -->
 
-        <!-- Subscription -->
-        <section class="subscription-section">
-            <div class="row justify-content-center">
-                <div class="col">
-                    <div class="subscription-description">Подписывайтесь
-                        на новости и акции</div>
-                </div>
-                <div class="col-3">
-                    <form>
-                        <div class="subscription-form-control">
-                            <input type="email" placeholder="E-mail"
-                                class="subscription-input" required>
-                            <button class="subscription-btn" type="submit">
-                                <img src="./icons/airplane-btn.svg" alt="">
-                            </button>
-                        </div>
-                    </form>
-                </div>
+      <!-- Catalog -->
+      <section class="catalog-section" id="Catalog">
+        <div class="container">
+          <h2 class="catalog-title">Каталог</h2>
+          <div class="grid-card justify-content-center-sm">
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-1.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">
+                Датчики и измерители температуры
+              </div>
             </div>
-        </section>
-        <!-- Subscription -->
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-2.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">
+                Вторичные приборы и расходомеры
+              </div>
+            </div>
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-3.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">Метрологическое оборудование</div>
+            </div>
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-4.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">
+                Электромагнитные расходомеры-счетчики
+              </div>
+            </div>
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-5.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">Измерители-регуляторы</div>
+            </div>
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-6.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">Блоки питания</div>
+            </div>
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-7.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">Модули УСО</div>
+            </div>
+            <div class="catalog-card">
+              <img
+                src="./images/catalog-img-8.jpg"
+                alt=""
+                class="catalog-img"
+              />
+              <div class="card-line"></div>
+              <div class="catalog-card-title">
+                Универсальные вычеслители расхода
+              </div>
+            </div>
+          </div>
+          <div class="button-container">
+            <button class="button-primary section-button button-sm-block">
+              Весь каталог
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Catalog -->
+
+      <!-- Map -->
+      <section class="map-section" id="Map">
+        <div class="container">
+          <h2 class="map-title">География поставок</h2>
+          <div class="row">
+            <div class="col-6">
+              <p class="map-description big-size-text">
+                Наши филиалы находятся во всех крупных городах России. Москва,
+                Санкт-Петербург, Архангельск, Сыктывкар, Тюмень, Новосибирск,
+                Красноярск, Якутск, Владивосток.
+              </p>
+            </div>
+            <div class="col-6">
+              <p class="map-description big-size-text">
+                Доставка осуществляется в день заказа посредством транспортных
+                компаний.
+              </p>
+            </div>
+          </div>
+          <img src="./images/map-img.jpg" alt="" class="map-img" />
+        </div>
+      </section>
+      <!-- Map -->
+
+      <!-- Сontacts -->
+      <section class="contacts-section" id="Contacts">
+        <div class="container">
+          <div class="row gap-sm-40">
+            <div class="col-6 col-sm-12">
+              <h2 class="contacts-title">Контакты</h2>
+              <h3 class="contacts-subtitle">Оставьте заявку</h3>
+              <p class="contacts-description">
+                Перезвоним в течение 30 минут. Обсудим задачи и найдем
+                оптимальное решение. Ответим на вопросы и расскажем подробнее о
+                действующих акциях. Будем на связи!
+              </p>
+              <ul class="list-horizontal">
+                <li>
+                  <a href="https://whatsapp.com" target="_blank">
+                    <img src="./icons/whatsapp-icon.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://instagram.com" target="_blank">
+                    <img src="./icons/instagram-icon.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://vk.com" target="_blank">
+                    <img src="./icons/vk-icon.svg" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-sm-12">
+              <form>
+                <div class="form-group">
+                  <label class="form-label" for="Name">
+                    Ваше имя <span class="required">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Введите ваше имя"
+                    id="Name"
+                    value=""
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="PhoneNumber">
+                    Телефон <span class="required">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="7 (_ _ _) _ _ _-_ _-_ _"
+                    minlength="11"
+                    id="PhoneNumber"
+                    value=""
+                    required
+                  />
+                </div>
+                <script>
+                  document
+                    .getElementById('PhoneNumber')
+                    .addEventListener('input', function (e) {
+                      this.value = this.value.replace(/[^0-9]/g, '')
+                      if (this.value.length > 11) {
+                        this.value = this.value.slice(0, 11)
+                      }
+                    })
+                </script>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                    required
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Я согласен(а) на обработку персональных данных
+                  </label>
+                </div>
+                <button
+                  class="button-primary section-button button-sm-block"
+                  type="submit"
+                >
+                  Отправить
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Сontacts -->
+
+      <!-- Subscription -->
+      <section class="subscription-section">
+        <div class="row row-gutter justify-content-center">
+          <div class="col">
+            <div class="subscription-description">
+              Подписывайтесь на новости и акции
+            </div>
+          </div>
+          <div class="col-3">
+            <form>
+              <div class="subscription-form-control">
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  class="subscription-input"
+                  required
+                />
+                <button class="subscription-btn" type="submit">
+                  <img src="./icons/airplane-btn.svg" alt="" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Subscription -->
     </main>
 
     <!-- Footer-->
     <footer class="footer-section">
-        <div class="container">
-            <div class="row gap-sm-40">
-                <div class="col-3 col-sm-12">
-                    <ul class="list-vertical">
-                        <li>
-                            <a class="footer-link" href="">Оплата и доставка</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="">Сотрудничество</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="">Производителям</a>
-                        </li>
-                        <li>
-                            <a class="footer-link" href="">Торгующим
-                                компаниям
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-3 col-sm-12">
-                    <ul class="list-vertical">
-                        <li><a class="footer-link" href="">Реклама на сайте</a>
-                        </li>
-                        <li><a class="footer-link" href="">Скачать каталог</a>
-                        </li>
-                        <li><a class="footer-link" href="">Заказать
-                                консультацию</a>
-                        </li>
-                        <li><a class="footer-link" href="">Поддержка</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-3 col-sm-12">
-                    <ul class="list-vertical">
-                        <li><a class="footer-link" href="">Заказать звонок</a>
-                        </li>
-                        <li><a class="footer-link" href="">Файлы</a>
-                        </li>
-                        <li><a class="footer-link" href="">Политика
-                                конфиденциальности</a>
-                        </li>
-                        <li><a class="footer-link" href="">Прайс-лист</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-3 justify-content-end col-sm-12">
-                    <ul class="list-vertical list-vertical-gap-sm">
-                        <li><a class="footer-link email-link"
-                                href="mailto:pionerrr@sila.ru">pionerrr@sila.ru</a>
-                        </li>
-                        <li><a class="footer-link tel-link"
-                                href="tel:88001205250">8 (800)120-52-50</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row justify-content-between">
-                <div class="footer-description">1994 – 2022 ООО «ПИОНЕР»</div>
-                <div class="footer-description">
-                    <div>Телефон в Свердловске:
-                        8(495)456-24-21</div>
-                    <div>Бесплатный телефон по России: 8(800)120-52-50</div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row gap-sm-40 mb-lg">
+          <div class="col-3 col-sm-12">
+            <ul class="list-vertical">
+              <li>
+                <a class="footer-link" href="">Оплата и доставка</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">Сотрудничество</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">Производителям</a>
+              </li>
+              <li>
+                <a class="footer-link" href="">Торгующим компаниям </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 col-sm-12">
+            <ul class="list-vertical">
+              <li><a class="footer-link" href="">Реклама на сайте</a></li>
+              <li><a class="footer-link" href="">Скачать каталог</a></li>
+              <li><a class="footer-link" href="">Заказать консультацию</a></li>
+              <li><a class="footer-link" href="">Поддержка</a></li>
+            </ul>
+          </div>
+          <div class="col-3 col-sm-12">
+            <ul class="list-vertical">
+              <li><a class="footer-link" href="">Заказать звонок</a></li>
+              <li><a class="footer-link" href="">Файлы</a></li>
+              <li>
+                <a class="footer-link" href="">Политика конфиденциальности</a>
+              </li>
+              <li><a class="footer-link" href="">Прайс-лист</a></li>
+            </ul>
+          </div>
+          <div class="col-3 justify-content-end col-sm-12">
+            <ul class="list-vertical list-vertical-gap-sm">
+              <li>
+                <a class="footer-link email-link" href="mailto:pionerrr@sila.ru"
+                  >pionerrr@sila.ru</a
+                >
+              </li>
+              <li>
+                <a class="footer-link tel-link" href="tel:88001205250"
+                  >8 (800)120-52-50</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="footer-description">1994 – 2022 ООО «ПИОНЕР»</div>
+          <div class="footer-description">
+            <div>Телефон в Свердловске: 8(495)456-24-21</div>
+            <div>Бесплатный телефон по России: 8(800)120-52-50</div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Footer-->
-</body>
-
+  </body>
 </html>

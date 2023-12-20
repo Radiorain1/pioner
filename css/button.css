@@ -1,39 +1,39 @@
 .button-primary {
-    border-radius: 2px;
-    background-color: #4685FF;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 14px 45px;
-    font-size: 18px;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-        box-shadow 0.25s ease-in-out;
+  border-radius: 2px;
+  background-color: #4685ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 14px 45px;
+  font-size: 18px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    box-shadow 0.25s ease-in-out;
 }
 
 .navbar-button {
-    height: 32px;
-    padding: 5px 16px;
+  height: 32px;
+  padding: 5px 16px;
 }
 
 .intro-button {
-    width: 255px;
+  width: 255px;
 }
 
 .section-button {
-    width: 255px;
+  width: 255px;
 }
 
 .button-primary:hover {
-    box-shadow: 0px 4px 24px 0px rgba(70, 133, 255, 0.45);
+  box-shadow: 0px 4px 24px 0px rgba(70, 133, 255, 0.45);
 }
 
 .button-primary:active {
-    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.25) inset;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 @media (max-width: 992px) {
-    .button-block {
-        width: 100%;
-        display: block;
-    }
+  .button-sm-block {
+    width: 100%;
+    display: block;
+  }
 }

@@ -1,22 +1,22 @@
 .map-section {
-    margin-top: 120px;
-    scroll-margin-top: 140px;
+  margin-bottom: 120px;
+  scroll-margin-top: 140px;
 }
 
 .map-title {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .map-description {
-    max-width: 475px;
+  max-width: 475px;
 }
 
 .map-img {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 @media (max-width: 992px) {
-    .map-section {
-        display: none;
-    }
+  .map-section {
+    display: none;
+  }
 }
