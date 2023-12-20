@@ -1,0 +1,52 @@
+body,
+html {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #0A0A0A;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.3;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.big-size-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,46 @@
+.form-group {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    max-width: 100%;
+    width: 445px;
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #000;
+    line-height: 1.4;
+    outline: none;
+}
+
+.required {
+    color: #F00;
+}
+
+.form-check {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.form-check-input {
+    width: 18px;
+    height: 18px;
+}
+
+.form-control::placeholder {
+    color: rgba(102, 112, 128, 0.40);
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+label {
+    vertical-align: middle;
+}

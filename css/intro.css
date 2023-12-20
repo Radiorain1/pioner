@@ -1,0 +1,29 @@
+.intro-section {
+    background-image: url(../images/main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 120px;
+    padding-top: 200px;
+
+}
+
+.intro-title {
+    margin-bottom: 20px;
+    color: #100F0F;
+    max-width: 445px;
+    color: #fff;
+}
+
+.intro-description {
+    max-width: 380px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .intro-section {
+        background-image: url(../images/main-image-mobile.jpg);
+        height: 600px;
+    }
+}
